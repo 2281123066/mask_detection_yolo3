@@ -1,5 +1,4 @@
 # mask_detection_yolo3
-口罩检测
 =======
 # keras-yolo3
 
