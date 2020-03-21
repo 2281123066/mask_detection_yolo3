@@ -1,5 +1,3 @@
-# python yolo_video.py --model ./model_data/yolo.h5 --input ./test/road_video_compressed2.mp4 --output ./output/out_0.mp4
-
 from yolo import YOLO, detect_video
 from PIL import Image
 import os
@@ -26,4 +24,4 @@ if __name__ == '__main__':
     detect_image_test(img_path, out_path) # 单张图片测试
 
     # detect_video(video_path, output_path=os.path.join(out_path, 'out_test4.mp4')) # 本地视频测试
-    #  detect_video(video_path=None, output_path=os.path.join(out_path, 'output.mp4'))  # 实时视频测试
+    #  detect_video(video_path=None, output_path=""))  # 实时视频测试
